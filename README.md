@@ -11,7 +11,7 @@ Docker: 20.10.17
 Considerations:
 Because a fraud detection system relies on streamed data to produce alerts as soon as possible, Apache Kafka is used to handle the incoming data due to its streaming capabilities and the robust community surrounding this wonderful framework.
 
-Architecture diagram:
+#Architecture diagram:
 Kafka diagram drawio
 
 Two clusters are connected through a custom network labeled: kafka-network
