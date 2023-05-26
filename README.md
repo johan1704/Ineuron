@@ -12,6 +12,8 @@ Considerations:
 Because a fraud detection system relies on streamed data to produce alerts as soon as possible, Apache Kafka is used to handle the incoming data due to its streaming capabilities and the robust community surrounding this wonderful framework.
 
 #Architecture diagram:See architecture file
+![Architecture](https://github.com/johan1704/Ineuron/assets/68570240/607c9032-7986-4e78-94d6-fcc35a40b710)
+
 
 Two clusters are connected through a custom network labeled: kafka-network
 
@@ -32,7 +34,6 @@ To spin up the Destination Cluster, run:
 docker-compose -f docker-compose.kafka.yml build && docker-compose -f docker-compose.kafka.yml up
 
 This is what be what the terminal should look like... kafka_container_output<img width="757" alt="222" src="https://github.com/johan1704/Ineuron/assets/68570240/ff777fcf-5a6d-480a-9041-20bf962880fc">
-![Architecture](https://github.com/johan1704/Ineuron/assets/68570240/607c9032-7986-4e78-94d6-fcc35a40b710)
 
 
 
