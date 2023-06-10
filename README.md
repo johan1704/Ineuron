@@ -24,8 +24,6 @@ Two clusters are connected through a custom network labeled: ***kafka-network***
 ### Project Layout:
 To satisfy the architectural design, two Docker containers are used.
 
-<img width="311" alt="project_layout" src="https://user-images.githubusercontent.com/84660320/189238313-8e01728f-a13e-461a-80c0-ba39840d0c2f.png">
-
 ### Running the program:
 First of all, we want to start the **Destination Cluster** first since it acts as the sink in this pipeline.
 
